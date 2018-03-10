@@ -1,0 +1,57 @@
+/*
+  For the icon "X"
+*/
+.delete-icon {
+  color: gainsboro;
+  cursor: pointer;
+}
+.delete-icon:hover {
+  color: black;
+  cursor: pointer;
+}
+
+/*
+  For the loader
+*/
+.loading {
+  position: fixed;
+  z-index: 999;
+  height: 120px;
+  width: 120px;
+  overflow: show;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #19b3da;
+  border-bottom: 16px solid #19b3da;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*# sourceMappingURL=todolist.css.map */
