@@ -1,6 +1,6 @@
 TodoList - Firebase
 ===
-> It's a pratice for using firebase to build a todolist
+> It's a pratice for using firebase to build a todolist
 
 ## Getting Started
 
@@ -10,7 +10,7 @@ Download and add your firebase config in `js/todolist.js` then you can enjoy it!
 
 Just a todo list, you can add anything you want to do on it.By the way, it's chinese.
 
-"新增" means `add`, "全部清除" means `clear all`.
+"新增" means `add`, "全部清除" means `clear all`.
 
 - Loading before data loaded
 ![](https://i.imgur.com/5xqc5Aj.png)
